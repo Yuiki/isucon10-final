@@ -1,1 +1,1 @@
-deb [arch=amd64] https://dl.bintray.com/tetrate/getenvoy-deb focal stable
+deb [arch=amd64] https://deb.dl.getenvoy.io/public/deb/ubuntu focal main

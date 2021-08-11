@@ -1,12 +1,12 @@
-remote_file '/etc/6FF974DB.pem' do
+remote_file '/etc/gpg.8115BA8E629CC074.key' do
   owner 'root'
   group 'root'
   mode  '0644'
 
-  notifies :run, 'execute[apt-key add /etc/6FF974DB.pem]', :immediately
+  notifies :run, 'execute[apt-key add /etc/gpg.8115BA8E629CC074.key]', :immediately
 end
 
-execute 'apt-key add /etc/6FF974DB.pem' do
+execute 'apt-key add /etc/gpg.8115BA8E629CC074.key' do
   action :nothing
 end
 
